@@ -1,13 +1,642 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pelumigos Pet Shop</title>
-    <link rel="stylesheet" href="styles.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pelumigos PetShop</title>
+
+<link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-    <h1>Bienvenido a Pelumigos Pet Shop!</h1>
+
+<header>
+
+<div class="container navbar">
+
+<a href="#" class="logo">
+
+<div class="logo-icon">🐾</div>
+
+<span>Pelumigos</span>
+
+</a>
+
+<input type="checkbox" id="menu-toggle">
+
+<label for="menu-toggle" class="hamburger">
+
+<span></span>
+<span></span>
+<span></span>
+
+</label>
+
+<nav>
+
+<a href="#inicio">Inicio</a>
+
+<a href="#servicios">Servicios</a>
+
+<a href="#nosotros">Nosotros</a>
+
+<a href="#contacto">Contacto</a>
+
+<a
+href="https://wa.me/5491111111111"
+class="btn-whatsapp-nav"
+target="_blank"
+>
+WhatsApp
+</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<section id="inicio" class="hero">
+
+<div class="overlay"></div>
+
+<div class="container hero-content">
+
+<div class="hero-badge">
+
+⭐ Más de 2500 mascotas felices
+
+</div>
+
+<h1>
+
+Todo para tu mascota
+
+<span>en un solo lugar</span>
+
+</h1>
+
+<p>
+
+Alimentos premium, accesorios exclusivos y servicio profesional de baño y grooming para perros y gatos.
+
+</p>
+
+<div class="hero-buttons">
+
+<div class="hero-buttons">
+
+    <a
+    href="https://wa.me/5491111111111"
+    class="btn-primary"
+    target="_blank">
+        💬 Reservar Turno
+    </a>
+
+    <a
+    href="#servicios"
+    class="btn-secondary">
+        Ver Servicios
+    </a>
+
+</div>
+
+<div class="hero-stats">
+
+<div class="stat-box">
+
+<div class="stat-number">+2500</div>
+
+<div class="stat-label">
+Mascotas felices
+</div>
+
+</div>
+
+<div class="stat-box">
+
+<div class="stat-number">98%</div>
+
+<div class="stat-label">
+Clientes satisfechos
+</div>
+
+</div>
+
+<div class="stat-box">
+
+<div class="stat-number">5★</div>
+
+<div class="stat-label">
+Calificación
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<section class="brands">
+
+<div class="container">
+
+<p class="section-mini-title">
+Trabajamos con las mejores marcas
+</p>
+
+<div class="brands-grid">
+
+<div class="brand-card">Royal Canin</div>
+
+<div class="brand-card">Pro Plan</div>
+
+<div class="brand-card">Excellent</div>
+
+<div class="brand-card">Vitalcan</div>
+
+<div class="brand-card">Sieger</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="servicios" class="services">
+
+<div class="container">
+
+<div class="section-heading">
+
+<span>
+Nuestros Servicios
+</span>
+
+<h2>
+Todo lo que tu mascota necesita
+</h2>
+
+<p>
+Brindamos productos y servicios pensados para el bienestar, la salud y la felicidad de tu mascota.
+</p>
+
+</div>
+
+<div class="services-grid">
+
+<div class="service-card">
+
+<div class="service-icon">
+🛁
+</div>
+
+<h3>Baño y Spa</h3>
+
+<p>
+Baños completos con productos de calidad y atención profesional.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<div class="service-icon">
+✂️
+</div>
+
+<h3>Grooming</h3>
+
+<p>
+Cortes higiénicos y estéticos adaptados a cada raza.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<div class="service-icon">
+🍖
+</div>
+
+<h3>Alimentos Premium</h3>
+
+<p>
+Las mejores marcas para una nutrición saludable.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<div class="service-icon">
+🎾
+</div>
+
+<h3>Juguetes</h3>
+
+<p>
+Diversión y estimulación para todas las edades.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<div class="service-icon">
+💊
+</div>
+
+<h3>Farmacia</h3>
+
+<p>
+Productos esenciales para el cuidado diario.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<div class="service-icon">
+❤️
+</div>
+
+<h3>Atención Personalizada</h3>
+
+<p>
+Asesoramiento para encontrar lo mejor para tu mascota.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<section id="nosotros" class="why-us">
+
+<div class="container">
+
+<div class="why-grid">
+
+<div class="why-image">
+
+<div class="why-image-card">
+
+🐾
+
+</div>
+
+</div>
+
+<div class="why-content">
+
+<span class="section-tag">
+¿Por qué elegirnos?
+</span>
+
+<h2>
+Más que una tienda,
+somos amantes de las mascotas
+</h2>
+
+<p>
+En Pelumigos creemos que cada mascota merece atención, cariño y productos de calidad. Por eso trabajamos todos los días para ofrecer una experiencia única tanto para los dueños como para sus compañeros de cuatro patas.
+</p>
+
+<div class="benefits">
+
+<div class="benefit-item">
+
+<div class="benefit-icon">❤️</div>
+
+<div>
+
+<h3>Atención personalizada</h3>
+
+<p>
+Te ayudamos a encontrar exactamente lo que tu mascota necesita.
+</p>
+
+</div>
+
+</div>
+
+<div class="benefit-item">
+
+<div class="benefit-icon">🛁</div>
+
+<div>
+
+<h3>Grooming profesional</h3>
+
+<p>
+Personal capacitado para brindar un servicio seguro y de calidad.
+</p>
+
+</div>
+
+</div>
+
+<div class="benefit-item">
+
+<div class="benefit-icon">🍖</div>
+
+<div>
+
+<h3>Productos seleccionados</h3>
+
+<p>
+Trabajamos únicamente con marcas reconocidas y de confianza.
+</p>
+
+</div>
+
+</div>
+
+<div class="benefit-item">
+
+<div class="benefit-icon">🐶</div>
+
+<div>
+
+<h3>Amor por los animales</h3>
+
+<p>
+Cada mascota es tratada como si fuera parte de nuestra familia.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<section class="testimonials">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>
+                Clientes felices
+            </span>
+
+            <h2>
+                Lo que dicen nuestros clientes
+            </h2>
+
+            <p>
+                Cada mascota que visita Pelumigos recibe atención personalizada y mucho cariño.
+            </p>
+
+        </div>
+
+        <div class="testimonials-grid">
+
+            <div class="testimonial-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Mi perrita Luna sale hermosa cada vez que la llevo. Excelente atención."
+                </p>
+
+                <div class="client">
+
+                    <div class="client-avatar">
+                        🐶
+                    </div>
+
+                    <div>
+                        <h4>María G.</h4>
+                        <span>Cliente frecuente</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Los mejores alimentos y accesorios que encontré para mi gato."
+                </p>
+
+                <div class="client">
+
+                    <div class="client-avatar">
+                        🐱
+                    </div>
+
+                    <div>
+                        <h4>Lucas R.</h4>
+                        <span>Cliente frecuente</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Excelente servicio de baño. Se nota que aman a los animales."
+                </p>
+
+                <div class="client">
+
+                    <div class="client-avatar">
+                        ❤️
+                    </div>
+
+                    <div>
+                        <h4>Carolina M.</h4>
+                        <span>Cliente frecuente</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="gallery">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>
+                Mascotas felices
+            </span>
+
+            <h2>
+                Nuestros pequeños clientes
+            </h2>
+
+            <p>
+                Cada visita es una experiencia llena de cuidado, diversión y mucho amor.
+            </p>
+
+        </div>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item large">
+                <div class="gallery-overlay">
+                    <h3>Baño & Spa</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-overlay">
+                    <h3>Grooming</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-overlay">
+                    <h3>Clientes Felices</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-overlay">
+                    <h3>Accesorios</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item large">
+                <div class="gallery-overlay">
+                    <h3>Momentos Especiales</h3>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-overlay">
+                    <h3>Pelumigos</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="contacto" class="final-cta">
+
+    <div class="container">
+
+        <div class="cta-box">
+
+            <span class="cta-badge">
+                🐾 Tu mascota merece lo mejor
+            </span>
+
+            <h2>
+                Agenda hoy mismo y dale a tu compañero la atención que se merece
+            </h2>
+
+            <p>
+                Productos premium, grooming profesional y un equipo apasionado por el bienestar de cada mascota.
+            </p>
+
+            <div class="cta-features">
+
+                <div class="cta-feature">
+                    ✓ Atención personalizada
+                </div>
+
+                <div class="cta-feature">
+                    ✓ Turnos rápidos
+                </div>
+
+                <div class="cta-feature">
+                    ✓ Productos premium
+                </div>
+
+                <div class="cta-feature">
+                    ✓ Mascotas felices
+                </div>
+
+            </div>
+
+            <a href="https://wa.me/5491111111111" class="cta-button">
+                💬 Hablar por WhatsApp
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <div class="footer-logo">
+                    🐾
+                </div>
+
+                <h3>Pelumigos PetShop</h3>
+
+                <p>
+                    Amor, cuidado y bienestar para cada mascota.
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <a href="#">Inicio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Nosotros</a>
+                <a href="#">Contacto</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            © 2026 Pelumigos PetShop · Todos los derechos reservados.
+
+        </div>
+
+    </div>
+
+</footer>
 </body>
 </html>
